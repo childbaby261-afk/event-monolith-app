@@ -1,12 +1,10 @@
-# Community Event Management System - Group 11
+# Community Event Management System 
 
-## 👥 Team Members
-- [Your Name] - [Student ID]
-- [Tateda Mungandaire] - [2420986] 
-- [Teammate 2 Name] - [Student ID]
-- [Teammate 3 Name] - [Student ID]
+Team Members
+- Davies Manchishi - 2410093
+- Tateda Mungandaire - 2420986
+- Amos Kabashi - 2420961
 
-## 📋 Project Overview
+Project Overview
 A full-stack event management application built as part of BSE2210 Software Design assignment.
 
-[Rest of your existing README content...]
