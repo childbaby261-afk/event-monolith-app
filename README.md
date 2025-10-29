@@ -2,7 +2,7 @@
 
 ## 👥 Team Members
 - [Your Name] - [Student ID]
-- [Teammate 1 Name] - [Student ID] 
+- [Tateda Mungandaire] - [2420986] 
 - [Teammate 2 Name] - [Student ID]
 - [Teammate 3 Name] - [Student ID]
 
