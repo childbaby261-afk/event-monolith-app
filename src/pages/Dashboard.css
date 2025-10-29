@@ -1,0 +1,152 @@
+.dashboard-container {
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #4A90E2 0%, #50E3C2 50%, #4A90E2 100%);
+  font-family: 'Inter', sans-serif;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.dashboard-box {
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 40px rgba(74, 144, 226, 0.15);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid #e0e0e0;
+}
+
+.dashboard-title {
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: #4A90E2;
+  margin-bottom: 1rem;
+  animation: slideDown 0.6s ease-out;
+}
+
+.dashboard-description {
+  color: #555;
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  animation: slideUp 0.6s ease-out 0.2s both;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.dashboard-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 6px 20px rgba(74, 144, 226, 0.15);
+  text-align: left;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(74, 144, 226, 0.3);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #4A90E2;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  color: #555;
+  font-size: 1rem;
+}
+
+.dashboard-button {
+  font-weight: 600;
+  padding: 0.875rem 2rem;
+  border-radius: 9999px;
+  box-shadow: 0 6px 20px rgba(74, 144, 226, 0.15);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  background-color: #4A90E2;
+}
+
+.dashboard-button:hover {
+  background-color: #3a78c2;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(74, 144, 226, 0.3);
+}
+
+.dashboard-button.logout {
+  background: linear-gradient(135deg, #50E3C2, #4A90E2);
+}
+
+.dashboard-button.logout:hover {
+  background: linear-gradient(135deg, #3ddbb3, #3a78c2);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dashboard-title {
+    font-size: 2rem;
+  }
+
+  .dashboard-description {
+    font-size: 1rem;
+  }
+
+  .dashboard-card {
+    padding: 1rem;
+  }
+
+  .dashboard-button {
+    width: 100%;
+  }
+
+  .dashboard-grid {
+    gap: 1rem;
+  }
+}

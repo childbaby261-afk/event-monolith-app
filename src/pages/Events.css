@@ -1,0 +1,62 @@
+.eventlist-container {
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  background-color: #F5F7FA; /* Matches landing background */
+  font-family: 'Inter', sans-serif;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.eventlist-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #4A90E2; /* Matches landing title */
+  margin-bottom: 1rem;
+  animation: slideDown 0.6s ease-out;
+  text-shadow: 0 4px 10px rgba(74, 144, 226, 0.2);
+}
+
+.eventlist-highlight {
+  color: #50E3C2; /* Matches landing highlight */
+  text-shadow: 0 0 20px rgba(80, 227, 194, 0.5);
+}
+
+.eventlist-description {
+  font-size: 1.25rem;
+  color: #555; /* Matches landing description */
+  margin-bottom: 2rem;
+  max-width: 42rem;
+  line-height: 1.7;
+  animation: slideUp 0.6s ease-out 0.2s both;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.eventlist-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.eventlist-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 6px 20px rgba(74, 144, 226, 0.15); /* Matches landing box shadow */
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+  transition: transform 0.3s ease;
+  border: 1px solid #e0e0e0;
+}
+
+.eventlist-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(74, 144, 226, 0.3); /* Matches landing hover */
+}
+
+.eventlist-card h3 {
+  font-size: 1.5rem;
+  color: #4A90E2; /* Matches landing title */
+  margin-bottom: 0.5rem;
+}
