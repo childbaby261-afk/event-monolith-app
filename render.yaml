@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: event-monolith-app
+    env: node
+    plan: free
+    buildCommand: npm install && npx prisma generate && npx prisma migrate deploy
+    startCommand: npm start
+    envVars:
+      - key: DATABASE_URL
+        value: "postgresql://neondb_owner:npg_zEbKtmgxG58T@ep-crimson-voice-a8hu25ju.eastus2.azure.neon.tech/neondb?sslmode=require"
+      - key: JWT_SECRET
+        generateValue: true
+      - key: NODE_ENV
+        value: production

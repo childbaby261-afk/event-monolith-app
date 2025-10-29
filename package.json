@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "front-end",
   "private": true,
   "version": "0.0.0",
@@ -31,5 +32,27 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.45.0",
     "vite": "^7.1.7"
+=======
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "db:generate": "npx prisma generate --schema=src/prisma/schema.prisma",
+    "db:push": "npx prisma db push --schema=src/prisma/schema.prisma"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^1.3.1",
+    "@prisma/client": "^6.18.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/ws": "^8.18.1",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "prisma": "^6.18.0",
+    "typescript": "^5.9.3"
+>>>>>>> 9137aad9208c958b915a0ea1eadc7c00753af8f3
   }
 }
