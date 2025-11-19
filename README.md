@@ -184,5 +184,6 @@ Real-time features active
 Database operations successful  
 Design patterns properly implemented
 
-The complete system meets all assignment requirements and is ready for evaluation.
+The complete system meets all assignment requirements and is ready for evaluation and now running on live on render.
+
 
